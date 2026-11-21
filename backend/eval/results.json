@@ -1,0 +1,44 @@
+[
+  {
+    "mode": "vector",
+    "hit@1": 0.571,
+    "hit@4": 0.75,
+    "mrr": 0.64,
+    "misses": [
+      "Which areas can an L3 employee get into?",
+      "Can I work in the office on a Sunday night?",
+      "How long does it take to get L4 approved?",
+      "How long are verification records stored?",
+      "Can I refuse to give my face photo?",
+      "A former employee shows up at reception. How do we treat them?",
+      "What number do I call in an emergency?"
+    ]
+  },
+  {
+    "mode": "bm25",
+    "hit@1": 0.571,
+    "hit@4": 0.786,
+    "mrr": 0.661,
+    "misses": [
+      "Which areas can an L3 employee get into?",
+      "Someone is suspended - can they come into the building?",
+      "Can I work in the office on a Sunday night?",
+      "How long does it take to get L4 approved?",
+      "How long are verification records stored?",
+      "Can I refuse to give my face photo?"
+    ]
+  },
+  {
+    "mode": "hybrid",
+    "hit@1": 0.571,
+    "hit@4": 0.821,
+    "mrr": 0.67,
+    "misses": [
+      "Which areas can an L3 employee get into?",
+      "Can I work in the office on a Sunday night?",
+      "How long does it take to get L4 approved?",
+      "How long are verification records stored?",
+      "Can I refuse to give my face photo?"
+    ]
+  }
+]

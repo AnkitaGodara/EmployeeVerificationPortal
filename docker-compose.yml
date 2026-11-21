@@ -1,0 +1,11 @@
+services:
+  portal:
+    build: .
+    ports:
+      - "8000:8000"
+    env_file:
+      - backend/.env
+    volumes:
+      - portal-data:/data      # database, face photos, model and index survive restarts
+volumes:
+  portal-data:
